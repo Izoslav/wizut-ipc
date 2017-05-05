@@ -1,3 +1,8 @@
+/*
+ * @author Marcin Kołodziej
+ * @brief echo server using pipe
+ */
+
 #include <stdio.h>
 #include <string.h>
 

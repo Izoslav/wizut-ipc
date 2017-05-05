@@ -1,3 +1,8 @@
+/*
+ * @author Marcin Kołodziej
+ * @brief simple stream redirection example
+ */
+
 #include <stdio.h>
 
 #include <stdlib.h> // exit

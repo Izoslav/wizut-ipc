@@ -1,3 +1,8 @@
+/*
+ * @author Marcin Kołodziej
+ * @brief create pipe example
+ */
+
 #include <stdio.h>
 #include <string.h>
 

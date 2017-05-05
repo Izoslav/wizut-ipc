@@ -1,3 +1,8 @@
+/*
+ * @author Marcin Kołodziej
+ * @brief use existing FIFO example
+ */
+
 #include <stdio.h>
 
 #include <stdlib.h>    // exit

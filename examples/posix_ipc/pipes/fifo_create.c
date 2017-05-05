@@ -1,3 +1,8 @@
+/*
+ * @author Marcin Kołodziej
+ * @brief FIFO mkfifo example
+ */
+
 #include <stdio.h>
 #include <string.h>
 

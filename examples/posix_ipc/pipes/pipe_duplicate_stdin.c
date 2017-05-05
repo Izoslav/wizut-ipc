@@ -1,3 +1,8 @@
+/*
+ * @author Marcin Kołodziej
+ * @brief duplicate stdin/stdout to pipe example
+ */
+
 #include <stdio.h>
 #include <string.h>
 

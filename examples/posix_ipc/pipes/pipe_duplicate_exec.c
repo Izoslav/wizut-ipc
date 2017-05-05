@@ -1,3 +1,8 @@
+/*
+ * @author Marcin Kołodziej
+ * @brief pipe two external programs example
+ */
+
 #include <stdio.h>
 #include <string.h>
 
