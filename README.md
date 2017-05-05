@@ -2,10 +2,11 @@
 Prezentacja: [link]
 
 ## Przykłady
-1. Rozwiązania natywne dla Linuxa
-  1. Kolejki (ang. _queues_)
-  2. Potoki (ang. _pipes_)
-  3. Pamięć współdzielona (ang. _shared memory_)
+1. Rozwiązania natywne dla Linuxa (POSIX)
+    1. Potoki (ang. _pipes_)
+    2. Kolejki (ang. _queues_)
+    3. Pamięć współdzielona (ang. _shared memory_)
+    4. Gniazda (agn. _sockets_)
 
 2. Biblioteka boost
     1. __boost::atomic__
@@ -33,6 +34,10 @@ Prezentacja: [link]
             1. Synchroniczna
             2. Asynchroniczna
         3. Modyfikowanie zmiennych środowiskowych
+
+3. Valgrind
+    1. Helgrind
+    2. DRD
 
 # Zadanie na ocenę
 
