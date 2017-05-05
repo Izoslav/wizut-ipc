@@ -1,7 +1,7 @@
 # Wykład
 Kontakt: [marcin.kolodziej1@globallogic.com](mailto:marcin.kolodziej1@globallogic.com) lub [dev@izoslav.pl](mailto:dev@izoslav.pl)
 
-Prezentacja: [WIZUT_KMIM_M2_M4.pdf]()
+Prezentacja: [WIZUT_KMIM_M2_M4.pdf](https://github.com/Izoslav/wizut-ipc/raw/master/WIZUT_KMIM_M2_M4.pdf)
 
 # Przykłady
 1. Rozwiązania natywne dla Linuxa (POSIX)
@@ -12,29 +12,7 @@ Prezentacja: [WIZUT_KMIM_M2_M4.pdf]()
 
 2. Biblioteka boost
     1. __boost::interprocess__
-        1. Współdzielenie pamięci
-            1. `shared_memory_object`
-            2. `file_mapping`
-        2. Mechanizmy synchronizacji
-            1. `interprocess_mutex`
-            2. `name_mutex`
-            3. `scoped_lock`
-        3. Zmienne warunkowe
-            1. `interprocess_condition`
-            2. `named_condition`
-        4. Semafory
-            1. `interprocess_semaphore`
-            2. `named_semaphore`
-        5. Kolejka wiadomości
-            1. `message_queue`
     2. __boost::process__
-        1. Uruchamianie procesu
-            1. Pojedynczy proces
-            2. Grupowanie
-        2. Komunikacja z procesem
-            1. Synchroniczna
-            2. Asynchroniczna
-        3. Modyfikowanie zmiennych środowiskowych
 
 3. Valgrind
     1. Helgrind
@@ -71,6 +49,8 @@ Prezentacja: [WIZUT_KMIM_M2_M4.pdf]()
 - [http://man7.org/linux/man-pages/index.html](http://man7.org/linux/man-pages/index.html)
 - [http://www.boost.org/doc/libs/1_64_0/doc/html/interprocess.html](http://www.boost.org/doc/libs/1_64_0/doc/html/interprocess.html)
 - [http://www.boost.org/doc/libs/1_64_0/doc/html/process.html](http://www.boost.org/doc/libs/1_64_0/doc/html/process.html)
+- [http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2006/n2044.html](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2006/n2044.html)
+
 - [https://github.com/Izoslav/wizut-ipc](https://github.com/Izoslav/wizut-ipc)
 
 
