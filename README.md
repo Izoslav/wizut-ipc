@@ -1,5 +1,7 @@
 # Wykład
-Prezentacja: [link]
+Kontakt: [marcin.kolodziej1@globallogic.com]() lub [dev@izoslav.pl]()
+
+Prezentacja: [link]()
 
 ## Przykłady
 1. Rozwiązania natywne dla Linuxa (POSIX)
@@ -48,7 +50,7 @@ Prezentacja: [link]
 3.
 
 ## Biblioteka boost
-1. 
+1.
 2.
 3.
 
