@@ -25,7 +25,7 @@ int main(int argc, char ** argv) {
 
   struct sockaddr_in addr_server;
   struct sockaddr_in addr_client;
-  int                addr_length;
+  int                addr_length = sizeof(addr_server);
   int                sockfd;
   char               buffer[256];
   int                bytes;
@@ -59,20 +59,22 @@ int main(int argc, char ** argv) {
       printf("Waiting for data... ");
       fflush(stdout);
       memset(buffer, 0, 256);
-
+      
       // try to receive data, blocking call
       bytes = recvfrom(sockfd, buffer, 256, 0, (struct sockaddr *) &addr_client, &addr_length);
       if (bytes == -1) {
         error("server recvfrom");
       }
 
-      printf("[%s:%d] %s\n",
+      printf("[%s:%d (%d)] %s\n",
               inet_ntoa(addr_client.sin_addr),
               ntohs(addr_client.sin_port),
+              addr_length,
               buffer);
       
       // reply with the same data
       if (sendto(sockfd, buffer, bytes, 0, (struct sockaddr *) &addr_client, addr_length) == -1) {
+        printf("addr_length(%d)\n", addr_length);
         error("server sendto");
       }
     }
